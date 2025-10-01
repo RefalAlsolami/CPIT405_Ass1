@@ -195,11 +195,28 @@ label {
     background-color: #555;
 }
 
+/* Responsive Design */
 @media (max-width: 768px) {
     .grid-container {
         grid-template-columns: 1fr; 
+        gap: 20px;
+    }
+
+    nav ul li {
+        display: block; 
+        margin: 10px 0;
+    }
+
+    .profile-pic {
+        width: 120px;
+        height: 120px; 
+    }
+
+    .form-submit {
+        width: 100%; 
     }
 }
+
 /* Footer */
 footer {
     background-color: #382e3a;
