@@ -59,7 +59,6 @@ nav ul li a {
 nav ul li a:hover {
     color: rgba(218, 100, 181, 0.7);
     font-weight: bold;
-    background-color: transparent;
 }
 
 /* Layout */
@@ -106,8 +105,7 @@ section.content {
 /* Fragment Link */
 .fragment-link {
     color: black;
-    font-weight: bold;
-    text-decoration: none;   
+    font-weight: bold; 
     display: inline-block;   
     padding: 5px 10px;       
 }
@@ -219,7 +217,7 @@ label {
 
 /* Footer */
 footer {
-    background-color: #382e3a;
+    background-color: #280330;
     color: white;
     text-align: center;
     padding: 15px;
